@@ -20,6 +20,8 @@
     --color-light-gray: #e5e7eb;
     --color-white: #ffffff;
     --color-bg: #f9fafb;
+    --color-success: #10b981;
+    --color-error: #ef4444;
     
     /* Spacing */
     --spacing-xs: 0.5rem;
@@ -583,12 +585,7 @@ section {
     }
 }
 
-/* Apply fade-in animation to sections on scroll */
-@media (prefers-reduced-motion: no-preference) {
-    section {
-        animation: fadeIn 0.6s ease-out;
-    }
-}
+/* Removed broad section animation - now handled by JavaScript for better performance */
 
 /* Respect user preference for reduced motion */
 @media (prefers-reduced-motion: reduce) {

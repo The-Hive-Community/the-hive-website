@@ -184,8 +184,8 @@
                 return;
             }
             
-            // Simulate form submission (replace with actual API call)
-            console.log('Form submitted:', data);
+            // Form submitted successfully
+            // In production, this would be replaced with an actual API call
             showMessage('Thank you for your message! We\'ll get back to you soon.', 'success');
             form.reset();
         });
@@ -213,7 +213,7 @@
             padding: '1rem',
             marginTop: '1rem',
             borderRadius: 'var(--radius-md)',
-            backgroundColor: type === 'success' ? '#10b981' : '#ef4444',
+            backgroundColor: type === 'success' ? 'var(--color-success)' : 'var(--color-error)',
             color: 'white',
             textAlign: 'center',
             animation: 'fadeIn 0.3s ease'
