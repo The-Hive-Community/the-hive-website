@@ -48,7 +48,7 @@
 
       <div class="heroGrid">
         <div class="heroText">
-          <h1>Building Real Connections.<br />Growing Practical Skills.</h1>
+            <h1>Building Real Connections.<br />Growing Practical Skills.</h1>
           <p>The Hive is a student-led community built around collaboration, not competition.</p>
           <p>We work on real projects, learn from real people, and grow skills that actually matter — together.</p>
 
@@ -69,112 +69,193 @@
 
   <!-- STATS (WHITE) -->
   <section class="section section--white stats">
-    <div class="wrap stats__inner">
-      <div class="stat">
-        <div class="stat__num">100+</div>
-        <div class="stat__label">members</div>
-      </div>
-      <div class="stat">
-        <div class="stat__num">25+</div>
-        <div class="stat__label">projects</div>
-      </div>
-      <div class="stat">
-        <div class="stat__num">10+</div>
-        <div class="stat__label">partners</div>
-      </div>
+  <div class="wrap stats__inner">
+
+    <div class="stat">
+      <svg class="statSvg" viewBox="0 0 260 120" role="img" aria-label="100 plus">
+        <text x="0" y="92" class="statSvgText">100+</text>
+      </svg>
+      <div class="stat__label">members</div>
     </div>
-  </section>
+
+    <div class="stat">
+      <svg class="statSvg" viewBox="0 0 220 120" role="img" aria-label="25 plus">
+        <text x="0" y="92" class="statSvgText">25+</text>
+      </svg>
+      <div class="stat__label">projects</div>
+    </div>
+
+    <div class="stat">
+      <svg class="statSvg" viewBox="0 0 220 120" role="img" aria-label="10 plus">
+        <text x="0" y="92" class="statSvgText">10+</text>
+      </svg>
+      <div class="stat__label">partners</div>
+    </div>
+
+  </div>
+</section>
 
   <!-- MISSION (WHITE) -->
-  <section class="section section--white mission" id="community">
-    <div class="wrap mission__inner">
-      <div class="mission__kicker">what we do</div>
+   
+ <section class="section section--white mission section--lined" id="community">
+  <div class="wrap">
+    <div class="missionBanner">
+      <img class="missionBg" src="assets/paperplanes.png" alt="" aria-hidden="true" />
 
-      <div class="mission__card">
-        <div class="doodle doodle--tl" aria-hidden="true"></div>
-        <div class="doodle doodle--tr" aria-hidden="true"></div>
-        <div class="doodle doodle--bl" aria-hidden="true"></div>
-        <div class="doodle doodle--br" aria-hidden="true"></div>
+      <div class="missionContent">
+        <div class="missionKicker">what we do</div>
 
-        <p class="mission__text">
+        <p class="missionText">
           The Hive’s Mission Is To Give Students Real Experience Working In Cross-Functional Teams And To Create A
           Supportive Space That Helps Them Build Confidence And Access Career Opportunities They Feel Comfortable In
         </p>
 
-        <div class="mission__line" aria-hidden="true"></div>
+        <div class="missionScribble" aria-hidden="true"></div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- CARDS (WHITE) -->
-  <section class="section section--white cards" id="get-involved">
-    <div class="wrap cards__grid">
-      <article class="infoCard">
-        <div class="infoCard__tag">Join as a <b>hiver</b></div>
-        <h3>For<br/>Students</h3>
-        <p>We partner with organizations to deliver hands-on experience to students through real projects in design,
-          marketing, & development.</p>
+ <section class="section section--white roles" id="get-involved">
+  <div class="wrap">
+    <div class="rolesStage" id="rolesStage">
+
+      <!-- LEFT (GREEN) -->
+      <article class="roleCard roleCard--green is-left" data-slot="left" tabindex="0">
+        <img class="clipImg clipImg--left" src="assets/pin.png" alt="" aria-hidden="true" />
+
+        <div class="roleTop">
+          <div class="roleKicker">Join as a</div>
+          <div class="roleTitleBig">hiver</div>
+        </div>
+
+        <h3 class="roleHeading">For<br>Students</h3>
+
+        <p class="roleBody">
+          We partner with organizations to deliver hands-on experience to students through real projects in design,
+          marketing & development.
+        </p>
       </article>
 
-      <article class="infoCard">
-        <div class="infoCard__tag">For<br/><b>Professionals</b></div>
-        <div class="infoCard__corner">Join as a<br/><b>mentor</b></div>
-        <p class="infoCard__small">Share your experience, guide students, and help shape real-world learning.</p>
+      <!-- CENTER (PINK) -->
+      <article class="roleCard roleCard--pink is-center is-active" data-slot="center" tabindex="0">
+        <img class="clipImg clipImg--center" src="assets/pin polka.png" alt="" aria-hidden="true" />
+
+        <h3 class="roleHeading">For<br>Professionals</h3>
+
+        <p class="roleBody">
+          Share your experience, guide students, and help shape real-world learning.
+        </p>
+
+        <div class="roleBottom">
+          <div class="roleKicker">Join as a</div>
+          <div class="roleTitleBig">mentor</div>
+        </div>
       </article>
 
-      <article class="infoCard">
-        <div class="infoCard__tag">Join as a <b>partner</b></div>
-        <h3>For<br/>Organizations</h3>
-        <p>Support student-led projects, events, and initiatives that create real impact.</p>
+      <!-- RIGHT (YELLOW) -->
+      <article class="roleCard roleCard--yellow is-right" data-slot="right" tabindex="0">
+        <img class="clipImg clipImg--right" src="assets/clip.png" alt="" aria-hidden="true" />
+
+        <div class="roleTop roleTop--right">
+          <div class="roleKicker">Join as a</div>
+          <div class="roleTitleBig">partner</div>
+        </div>
+
+        <h3 class="roleHeading">For<br>Organizations</h3>
+
+        <p class="roleBody">
+          Support student-led projects, events, and initiatives that create real impact.
+        </p>
       </article>
+
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- NEWS (GREEN) -->
-  <section class="section section--green news" id="projects">
-    <div class="wrap">
+  <!-- NEWS / CAROUSEL SECTION -->
+<section class="section section--green hiveNews" id="news">
+  <div class="wrap hiveNews__inner">
+
+    <!-- doodles (assets) -->
+    <img class="hiveNews__star hiveNews__star--left" src="assets/4 star.png" alt="" aria-hidden="true" />
+    <img class="hiveNews__star hiveNews__star--right" src="assets/pink upside empasis.png" alt="" aria-hidden="true" />
+
+    <header class="hiveNews__header">
       <h2>what’s new at the hive</h2>
-      <p class="news__sub">Updates, events, and opportunities you don’t want to miss.</p>
+      <p>Updates, events, and opportunities you don’t want to miss.</p>
+    </header>
 
-      <div class="carousel">
-        <button class="carousel__btn" id="prevBtn" aria-label="Previous">←</button>
+    <div class="hiveNews__carousel" data-carousel>
+      <button class="newsArrow newsArrow--left" type="button" data-prev aria-label="Previous">
+        ←
+      </button>
 
-        <div class="carousel__track" id="track" tabindex="0" aria-label="Event cards">
-          <article class="eventCard">
-            <img src="assets/event1.jpg" alt="" />
-            <div class="eventCard__body">
+      <!-- viewport clips the “cut off” cards -->
+      <div class="newsViewport">
+        <div class="newsTrack" data-track>
+          <!-- card 1 -->
+          <article class="newsCard">
+            <img src="assets/IMG_0943.JPG" alt="Black History Month Community Project" />
+            <div class="newsCard__body">
               <h3>Black History Month Community Project</h3>
-              <div class="pill">Coming Soon</div>
+              <span class="pill">Coming Soon</span>
               <p>A student-led project centered on storytelling, collaboration, and community impact.</p>
-              <a class="btnMini" href="#learn">Learn More</a>
+              <a class="btnMini btnMini--yellow" href="#">Learn More</a>
             </div>
           </article>
 
-          <article class="eventCard">
-            <img src="assets/event2.jpg" alt="" />
-            <div class="eventCard__body">
-              <h3>Photo Day & LinkedIn Optimization</h3>
-              <div class="pill">Coming Soon</div>
+          <!-- card 2 -->
+          <article class="newsCard">
+            <img src="assets/IMG_4270.jpg" alt="Photo Day & LinkedIn Optimization" />
+            <div class="newsCard__body">
+              <h3>Photo Day &amp; LinkedIn Optimization</h3>
+              <span class="pill">Coming Soon</span>
               <p>A hands-on session to help you build a strong professional presence, from headshots to profile feedback.</p>
-              <a class="btnMini btnMini--green" href="#learn">Learn More</a>
+              <a class="btnMini btnMini--green" href="#">Learn More</a>
             </div>
           </article>
 
-          <article class="eventCard">
-            <img src="assets/event3.jpg" alt="" />
-            <div class="eventCard__body">
-              <h3>Portfolio Review & Build Day</h3>
-              <div class="pill">Coming Soon</div>
+          <!-- card 3 -->
+          <article class="newsCard">
+            <img src="assets/porfolio.jpg" alt="Portfolio Review & Build Day" />
+            <div class="newsCard__body">
+              <h3>Portfolio Review &amp; Build Day</h3>
+              <span class="pill">Coming Soon</span>
               <p>An open working session for refining your portfolio, getting feedback, and learning how to present your work.</p>
-              <a class="btnMini btnMini--pink" href="#learn">Learn More</a>
+              <a class="btnMini btnMini--pink" href="#">Learn More</a>
+            </div>
+          </article>
+
+          <!-- extra cards (these are the ones that will be “cut off” at the ends) -->
+          <article class="newsCard">
+            <img src="assets/leadfest 3 smile.JPG" alt="Collab Night" />
+            <div class="newsCard__body">
+              <h3>Collab Night</h3>
+              <span class="pill">Coming Soon</span>
+              <p>Meet people across majors and build something small together.</p>
+              <a class="btnMini btnMini--yellow" href="#">Learn More</a>
+            </div>
+          </article>
+
+          <article class="newsCard">
+            <img src="assets/event-workshop.jpg" alt="Workshop Series" />
+            <div class="newsCard__body">
+              <h3>Workshop Series</h3>
+              <span class="pill">Coming Soon</span>
+              <p>Short, practical sessions to level up your skills and confidence.</p>
+              <a class="btnMini btnMini--green" href="#">Learn More</a>
             </div>
           </article>
         </div>
-
-        <button class="carousel__btn" id="nextBtn" aria-label="Next">→</button>
       </div>
+
+      <button class="newsArrow newsArrow--right" type="button" data-next aria-label="Next">
+        →
+      </button>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- FOOTER (BLACK) -->
   <footer class="section section--black footer" id="work">
