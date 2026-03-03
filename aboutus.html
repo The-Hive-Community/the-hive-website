@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Hive — Home</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- SECTION 1: NAV + HERO (YELLOW) -->
+  <section class="section section--yellow section1">
+    <div class="wrap">
+
+      <header class="nav">
+        <a class="logo" href="index.html" aria-label="The Hive home">
+          <img class="logoImg" src="assets/hive logo.png" alt="thehive logo" />
+        </a>
+
+        <nav class="navLinks" aria-label="Primary navigation">
+          <a class="navItem isActive" href="index.html">Home</a>
+          <a class="navItem" href="community.html">Community</a>
+          <a class="navItem" href="getinvolved.html">Get Involved</a>
+          <a class="navItem" href="projects.html">Projects</a>
+          <a class="navItem" href="contactus.html">Work With Us</a>
+        </nav>
+
+        <!-- ✅ NOTE: class name matches CSS: navMenu (not nav__menu) -->
+        <button class="navMenu" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">
+          ☰
+        </button>
+      </header>
+
+      <!-- mobile -->
+      <div class="mobileNav" id="mobileNav" hidden>
+        <a href="index.html" class="mobileNav__link">Home</a>
+        <a href="community.html" class="mobileNav__link">Community</a>
+        <a href="getinvolved.html" class="mobileNav__link">Get Involved</a>
+        <a href="projects.html" class="mobileNav__link">Projects</a>
+        <a href="contactus.html" class="mobileNav__link">Work With Us</a>
+      </div>

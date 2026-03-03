@@ -24,12 +24,24 @@
         </a>
 
         <nav class="navLinks" aria-label="Primary navigation">
-          <a class="navItem isActive" href="index.html">Home</a>
-          <a class="navItem" href="community.html">Community</a>
-          <a class="navItem" href="getinvolved.html">Get Involved</a>
-          <a class="navItem" href="projects.html">Projects</a>
-          <a class="navItem" href="contactus.html">Work With Us</a>
-        </nav>
+  <a class="navItem isActive" href="index.html">Home</a>
+  <a class="navItem" href="aboutus.html">About</a>
+
+  <div class="navDropdown">
+  <button class="navItem navDropdown__trigger" type="button" aria-haspopup="true" aria-expanded="false">
+    Community <span class="navChevron" aria-hidden="true">▾</span>
+  </button>
+
+  <div class="navDropdown__menu" aria-label="Community submenu">
+    <a class="navDropdown__item" href="events.html">Events</a>
+    <a class="navDropdown__item" href="news.html">News</a>
+  </div>
+</div>
+
+  <a class="navItem" href="getinvolved.html">Get Involved</a>
+  <a class="navItem" href="projects.html">Projects</a>
+  <a class="navItem" href="contactus.html">Contact Us</a>
+</nav>
 
         <!-- ✅ NOTE: class name matches CSS: navMenu (not nav__menu) -->
         <button class="navMenu" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">
